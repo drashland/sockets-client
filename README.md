@@ -24,7 +24,6 @@
 
 ## Table of Contents
 - [Quick Start](#quick-start)
-- [Documentation](#documentation)
 - [Why use Sockets Client?](#why-use-sockets-client)
 - [Contributing](#contributing)
 - [License](#license)
@@ -54,10 +53,6 @@ client.to("some-event", {
 })
 ```
 
-## Documentation
-
-[Full Documentation](https://drash.land/sockets-client)
-
 ## Why Use Sockets Client?
 
 Sockets client is designed to help you build projects with the ability to scale. It can improve the user experience, readability and maintainability of your socket clients, by providing event listeners and event emitters, over the usual `onmessage` handling.
@@ -76,7 +71,7 @@ Thrown into the mix is Drashland's own concepts such as:
 
 Contributors are welcomed!
 
-Please read through our [contributing guidelines](./.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/drashland/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 ## License
 By contributing your code, you agree to license your contribution under the [MIT License](./LICENSE).
