@@ -48,7 +48,7 @@ template: |
 
   * Import this latest release by using the following in your project(s):
     ```typescript
-    import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/sockets-client@$RESOLVED_VERSIONN/client.js";
+    import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/sockets-client@$RESOLVED_VERSION/client.js";
     ```
 
   __Updates__
