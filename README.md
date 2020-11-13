@@ -4,7 +4,7 @@
   </a>
   <h1 align="center">Sockets Client</h1>
 </p>
-<p align="center">A WebSocket client library for <a href="https://github.com/denoland/sockets">Deno Sockets</a>.</p>
+<p align="center">A WebSocket client library for the browser, or runtimes</p>
 <p align="center">
   <a href="https://discord.gg/SgejNXq">
     <img src="https://img.shields.io/badge/chat-on%20discord-blue">
