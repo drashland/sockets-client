@@ -1,0 +1,28 @@
+{
+  "name": "sockets-client",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://drash.io\">     <img height=\"200\" src=\"logo.svg\" alt=\"Sockets\">   </a>   <h1 align=\"center\">Sockets Client</h1> </p> <p align=\"center\">A WebSocket client library for <a href=\"https://github.com/denoland/sockets\">Deno Sockets</a>.</p> <p align=\"center\">   <a href=\"https://discord.gg/SgejNXq\">     <img src=\"https://img.shields.io/badge/chat-on%20discord-blue\">   </a>   <a href=\"https://twitter.com/drash_land\">     <img src=\"https://img.shields.io/twitter/url?label=%40drash_land&style=social&url=https%3A%2F%2Ftwitter.com%2Fdrash_land\">   </a> </p>",
+  "main": "client.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/tsc --module ES2015 --target ES2018 client.ts",
+    "test": "node_modules/.bin/mocha -r ts-node/register tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drashland/sockets-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drashland/sockets-client/issues"
+  },
+  "homepage": "https://github.com/drashland/sockets-client#readme"
+}
