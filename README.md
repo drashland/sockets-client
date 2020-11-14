@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://drash.io">
-    <img height="200" src="logo.svg" alt="Sockets">
+    <img height="200" src="logo.svg" alt="Wocket Client Logo">
   </a>
-  <h1 align="center">Sockets Client</h1>
+  <h1 align="center">Wocket Client</h1>
 </p>
 <p align="center">A WebSocket client library for the browser and Deno</p>
 <p align="center">
@@ -12,11 +12,11 @@
   <a href="https://twitter.com/drash_land">
     <img src="https://img.shields.io/twitter/url?label=%40drash_land&style=social&url=https%3A%2F%2Ftwitter.com%2Fdrash_land">
   </a>
-  <a href="https://github.com/drashland/sockets-client/releases">
-    <img src="https://img.shields.io/github/release/drashland/sockets-client.svg?color=bright_green&label=latest">
+  <a href="https://github.com/drashland/wocket-client/releases">
+    <img src="https://img.shields.io/github/release/drashland/wocket-client.svg?color=bright_green&label=latest">
   </a>
-  <a href="https://github.com/drashland/sockets-client/actions">
-    <img src="https://img.shields.io/github/workflow/status/drashland/sockets-client/master?label=ci">
+  <a href="https://github.com/drashland/wocket-client/actions">
+    <img src="https://img.shields.io/github/workflow/status/drashland/wocket-client/master?label=ci">
   </a>
 </p>
 
@@ -24,7 +24,7 @@
 
 ## Table of Contents
 - [Quick Start](#quick-start)
-- [Why use Sockets Client?](#why-use-sockets-client)
+- [Why use Wocket Client?](#why-use-wocket-client)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -40,7 +40,7 @@
 ```
 // File: client.js
 
-import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/sockets-client@latest/client.js";
+import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/wocket-client@latest/client.js";
 
 const client = new SocketClient({
   hostname: "localhost",
@@ -59,16 +59,16 @@ client.to("some-event", {
 ### From Deno
 
 ```typescript
-import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/sockets-client@latest/client.ts";
+import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/wocket-client@latest/client.ts";
 
 ...
 ```
 
-## Why Use Sockets Client?
+## Why Use Wocket Client?
 
-Sockets client is designed to help you build projects with the ability to scale. It can improve the user experience, readability and maintainability of your socket clients, by providing event listeners and event emitters, over the usual `onmessage` handling.
+Wocket client is designed to help you build projects with the ability to scale. It can improve the user experience, readability and maintainability of your socket clients, by providing event listeners and event emitters, over the usual `onmessage` handling.
 
-Sockets Client takes concepts from the following:
+Wocket Client takes concepts from the following:
 
 * <a href="https://flask.palletsprojects.com/en/1.1.x/" target="_BLANK">Flask</a> &mdash; being <a href="https://flask.palletsprojects.com/en/1.1.x/foreword/#what-does-micro-mean" target="_BLANK">micro</a> and extensible
 
