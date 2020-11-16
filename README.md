@@ -40,9 +40,9 @@
 ```
 // File: client.js
 
-import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/wocket-client@latest/client.js";
+import WocketClient from "https://cdn.jsdelivr.net/gh/drashland/wocket-client@latest/client.js";
 
-const client = new SocketClient({
+const client = new WocketClient({
   hostname: "localhost",
   port: 1667
 })
@@ -59,7 +59,7 @@ client.to("some-event", {
 ### From Deno
 
 ```typescript
-import SocketClient from "https://cdn.jsdelivr.net/gh/drashland/wocket-client@latest/client.ts";
+import WocketClient from "https://cdn.jsdelivr.net/gh/drashland/wocket-client@latest/client.ts";
 
 ...
 ```

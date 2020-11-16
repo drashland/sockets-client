@@ -7,7 +7,7 @@ interface Configs {
 
 /**
  * @description
- *    This SocketClient class uses the native WebSocket object to create a connection to a socket
+ *    This WocketClient class uses the native WebSocket object to create a connection to a socket
  *    server. It creates a connection, handles messages received from the socket server, and can
  *    send messages to the socket server it is connected to.
  *
@@ -21,7 +21,7 @@ interface Configs {
  *
  *    There are methods in this class that are prefixed with an underscore. A method prefixed with
  *    an underscore means it is not meant to be used publicly. Although these methods are not
- *    private, these methods are mainly for the SocketClient class' use.
+ *    private, these methods are mainly for the WocketClient class' use.
  *
  *    Helpful links:
  *    - Learn more about the WebSocket API at the following address:
@@ -29,7 +29,7 @@ interface Configs {
  *    - Learn more about writing web socket client applications at the following address:
  *          https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
  */
-export default class SocketClient {
+export default class WocketClient {
   /**
    * Configs for the client
    */
